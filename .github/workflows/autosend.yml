@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: do notification as bot
-        uses: nhomble/groupme-notify-action
+        uses: ingtshan-host/groupme-notify-action@v1
         id: bot
         with:
           bot: ${{ secrets.GM_BOT_ID }}
